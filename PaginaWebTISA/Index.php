@@ -1,15 +1,10 @@
 <?php
-// Ruta de la carpeta de imágenes
-$directorio = 'Multimedia/Imagenes/CasasVenta';
-
-// Leer todos los archivos en la carpeta
+$directorio = 'Multimedia/Imagenes/CasasVenta/';
 $imagenes = array_diff(scandir($directorio), array('..', '.'));
-
-// Mostrar las imágenes
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,35 +13,45 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-        }
-        h1 {
-            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
         }
         .gallery {
+            width: 850px;
+            height: 80vh; /* Ajuste de altura para scroll */
+            overflow-y: scroll; /* Permite desplazamiento vertical */
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            box-sizing: border-box;
         }
         .gallery img {
-            margin: 10px;
-            width: 200px;
+            width: 100%;
             height: auto;
-            border-radius: 8px;
+            border-radius: 1px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .line {
+            margin-top: 10px;
+            width: 100%;
+            height: 3px;
+            background-color: red;
         }
     </style>
 </head>
-<body>
-
-    <h1>Casas en Venta</h1>
-    <p>Aquí tienes las imágenes de las casas disponibles.</p>
-
+<body style="background-color: rgb(53, 52, 52);">
     <div class="gallery">
         <?php
-        // Recorrer todas las imágenes y mostrarlas
         foreach ($imagenes as $imagen) {
-            // Comprobar que es un archivo de imagen
             if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $imagen)) {
                 echo "<div>";
-                echo "<img src='$directorio$imagen' alt='$imagen'>";
+                echo "<img src='" . htmlspecialchars($directorio . $imagen) . "' alt='" . htmlspecialchars($imagen) . "'>";
+                echo "<div class='line'></div>";
                 echo "</div>";
             }
         }
