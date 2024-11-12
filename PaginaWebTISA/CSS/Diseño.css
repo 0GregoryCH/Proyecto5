@@ -1,53 +1,62 @@
 /*Pagina 1 inicio*/ 
-li{
+a{
+    text-decoration: none; 
+    border: none;  
     list-style: none;
 }
-#txt1I{
+#Div1I{
     width: 95%;   
-    font-size: 60px;
+    font-size: 30px;
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-left: 16.5%;
     border-radius: 0%;
     border-start-end-radius: 0%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
-#txt2I{
+#Div2I{
     width: 99%;   
     font-size: 33px;
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 2%;
     border-radius: 0%;
     border-start-end-radius: 0%;
 }
-#txt3I{
-    width: 95%;   
-    font-size: 60px;
+#Div3I{
+    width: 30%;   
+    font-size: 35px;
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 2%;
     margin-left: 29%;
     border-radius: 0%;
     border-start-end-radius: 0%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
 
+/*Pagina 2 Casas en Venta*/
+#BodyCV{
+    overflow: hidden;
+}
+#Secc1CV{
+    text-align: center;
+}
 
-/*Pagina 3 Sobre nosotros*/
-#Secc1SN{
+/*Pagina 3 Sobre Nosotros*/
+#Txt1SN{
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Secc2SN{
+#Txt2SN{
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#Secc3SN{
+#Txt3SN{
     width: 95%;   
     font-size: 20px;
     background-color: rgb(133, 131, 131, 0.5);
@@ -60,11 +69,11 @@ li{
 }
 
 /*Pagina 4 Contactos*/
-#Secc1C{
+#Txt1C{
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Secc2C{
+#Txt2C{
     width: 95%;   
     font-size: 33px;
     font-family:monospace;
@@ -74,55 +83,45 @@ li{
     border-radius: 0%;
     border-start-end-radius: 0%;
 }
-#TablaC{
+#Tabla1C{
     font-size: 50px;
 }
 
-
 /*Pagina 5 Puntos de importancia*/ 
-#Secc1PI{
+#Txt1PI{
     font-size: 46px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
 }
-#Secc2PI{
+#Txt2PI{
     width: 95%;   
     background-color: rgba(146, 144, 144, 0.5);
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5px 5px;
-    text-align:left ;
+    text-align:left;
     margin-top: 0.01%;
     border-radius: 0%;
     border-collapse: collapse;
     border-start-end-radius: 0%;
 }
-
-#AsociadosPI{
+#Tabla1PI{
     font-size: 40px;
-    text-align:left ;
+    text-align:left;
     margin-left: 65%;
 }
-
-
 #Txt3PI{
     font-size: 20px;
 }
 
-
-
-
 /*Pagina 6 Estructuras*/
-#TablaE{
-    padding: 100%;
-    height: 100%;
-    width: 100%;
-    font-size: 100px;
+#Tabla1E{
+    font-size: 100%;
+    text-align: left;
+    width: 90%;
 }
-
-#Secc1E{
+#Txt1E{
     font-size: 120%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
 }
-

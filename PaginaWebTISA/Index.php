@@ -22,8 +22,7 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
         }
         .gallery {
             width: 850px;
-            height: 80vh; /* Ajuste de altura para scroll */
-            overflow-y: scroll; /* Permite desplazamiento vertical */
+            height: 80vh;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -44,6 +43,7 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
         }
     </style>
 </head>
+
 <body style="background-color: rgb(53, 52, 52);">
     <div class="gallery">
         <?php
@@ -57,6 +57,5 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
         }
         ?>
     </div>
-
 </body>
 </html>
