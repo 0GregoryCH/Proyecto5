@@ -1,8 +1,43 @@
-/*Pagina 1 inicio*/ 
+
+/*General*/
 a{
+    display: inline-block;
     text-decoration: none; 
     border: none;  
     list-style: none;
+    color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+a:hover{
+    background-color: #0a5688;
+    box-shadow: 0 0px 7px rgb(150, 206, 223);
+}
+p{
+    color: white;
+}
+td{
+    color: white;
+}
+head{
+    background-color: rgb(53, 52, 52);
+}
+meta{
+    background-color: rgb(53, 52, 52);
+}
+body{
+    background-color: rgb(53, 52, 52); 
+}
+/*Pagina 1 inicio*/ 
+#BodyI{
+    background-image: url('../Multimedia/Imagenes/Render1.jpg');
+    background-size: cover; 
+    background-position: top left;
+}
+#Tabla1I{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
 }
 #Div1I{
     width: 95%;   
@@ -14,6 +49,7 @@ a{
     margin-left: 16.5%;
     border-radius: 0%;
     border-start-end-radius: 0%;
+    background-color:  rgb(95, 95, 95, 0.3); color: white; width: 65%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
 #Div2I{
@@ -25,6 +61,7 @@ a{
     margin-top: 2%;
     border-radius: 0%;
     border-start-end-radius: 0%;
+    color: red;
 }
 #Div3I{
     width: 30%;   
@@ -36,18 +73,43 @@ a{
     margin-left: 29%;
     border-radius: 0%;
     border-start-end-radius: 0%;
+    background-color:  rgb(95, 95, 95, 0.3); color: white; width: 39%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
 
 /*Pagina 2 Casas en Venta*/
+#Tabla1I{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
+}
+#Tabla2I{
+    width: 100%; border-collapse: collapse;
+}
+#Encabezado1I{
+    color: white;
+}
 #BodyCV{
     overflow: hidden;
+    background-color: rgb(53, 52, 52);
 }
-#Secc1CV{
+#Seccion1CV{
     text-align: center;
 }
 
 /*Pagina 3 Sobre Nosotros*/
+#Tabla1SN{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
+}
+#BodySN{
+    background-image: url('../Multimedia/Imagenes/FondoSobreNosotros.jpeg');
+    background-size: cover;
+     background-position: top left;
+}
 #Txt1SN{
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,29 +131,48 @@ a{
 }
 
 /*Pagina 4 Contactos*/
+#Tabla1C{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
+}
 #Txt1C{
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Txt2C{
+#Div1C{
     width: 95%;   
-    font-size: 33px;
+    font-size: 213%;
     font-family:monospace;
     padding: 5px 5px;
     text-align:left;
     margin-top: 0.01%;
     border-radius: 0%;
     border-start-end-radius: 0%;
+    color: red;
 }
-#Tabla1C{
+#Tabla2C{
     font-size: 50px;
 }
 
 /*Pagina 5 Puntos de importancia*/ 
+#Tabla1PI{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
+}
+#BodyPI{
+    background-image: url('../Multimedia/Imagenes/FondoOrg.jpeg');
+    background-size: cover; 
+    background-position: top left;
+}
 #Txt1PI{
     font-size: 46px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
+    width: 30%;
 }
 #Txt2PI{
     width: 95%;   
@@ -104,18 +185,31 @@ a{
     border-radius: 0%;
     border-collapse: collapse;
     border-start-end-radius: 0%;
+    width: 60%;
 }
-#Tabla1PI{
+#Tabla2PI{
     font-size: 40px;
     text-align:left;
     margin-left: 65%;
 }
+#Tabla3PI{
+    width: 35%; 
+    border-collapse: collapse;
+}
 #Txt3PI{
     font-size: 20px;
+    background-color: rgba(53, 52, 52, 0.404);
+    width: 60%;
 }
 
 /*Pagina 6 Estructuras*/
 #Tabla1E{
+    background-color: black; 
+    width: 100%; 
+    border-collapse: collapse; 
+    border: 10px solid black;
+}
+#Tabla2E{
     font-size: 100%;
     text-align: left;
     width: 90%;
@@ -124,4 +218,8 @@ a{
     font-size: 120%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
+}
+#Txt2E{
+    background-color: rgba(163, 163, 163, 0.404); 
+    width: 23%;
 }
