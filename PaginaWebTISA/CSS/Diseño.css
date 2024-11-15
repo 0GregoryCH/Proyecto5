@@ -1,5 +1,4 @@
-
-/*General*/
+/*Todo*/
 a{
     display: inline-block;
     text-decoration: none; 
@@ -27,6 +26,16 @@ meta{
 body{
     background-color: rgb(53, 52, 52); 
 }
+#SeccionGeneral{
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+
+/*Pagina General*/
+#HeadG{
+    background-color: none;
+}
+
 /*Pagina 1 inicio*/ 
 #BodyI{
     background-image: url('../Multimedia/Imagenes/Render1.jpg');
@@ -78,16 +87,11 @@ body{
 }
 
 /*Pagina 2 Casas en Venta*/
-#Tabla1I{
-    background-color: black; 
-    width: 100%; 
-    border-collapse: collapse; 
-    border: 10px solid black;
-}
-#Tabla2I{
+#Tabla1CV{
+    margin-top: 1.5%;
     width: 100%; border-collapse: collapse;
 }
-#Encabezado1I{
+#Encabezado1CV{
     color: white;
 }
 #BodyCV{
@@ -95,22 +99,18 @@ body{
     background-color: rgb(53, 52, 52);
 }
 #Seccion1CV{
+    margin-top: -6%;
     text-align: center;
 }
 
 /*Pagina 3 Sobre Nosotros*/
-#Tabla1SN{
-    background-color: black; 
-    width: 100%; 
-    border-collapse: collapse; 
-    border: 10px solid black;
-}
 #BodySN{
     background-image: url('../Multimedia/Imagenes/FondoSobreNosotros.jpeg');
     background-size: cover;
-     background-position: top left;
+    background-position: top left;
 }
 #Txt1SN{
+    margin-top: -1%;
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -125,19 +125,14 @@ body{
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 5%;
     border-radius: 0%;
     border-start-end-radius: 0%;
 }
 
 /*Pagina 4 Contactos*/
-#Tabla1C{
-    background-color: black; 
-    width: 100%; 
-    border-collapse: collapse; 
-    border: 10px solid black;
-}
 #Txt1C{
+    margin-top: -1%;
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -157,16 +152,13 @@ body{
 }
 
 /*Pagina 5 Puntos de importancia*/ 
-#Tabla1PI{
-    background-color: black; 
-    width: 100%; 
-    border-collapse: collapse; 
-    border: 10px solid black;
-}
 #BodyPI{
     background-image: url('../Multimedia/Imagenes/FondoOrg.jpeg');
     background-size: cover; 
     background-position: top left;
+}
+#Seccion1PI{
+    margin-top: -5%;
 }
 #Txt1PI{
     font-size: 46px;
@@ -200,16 +192,12 @@ body{
     font-size: 20px;
     background-color: rgba(53, 52, 52, 0.404);
     width: 60%;
+    margin-bottom: 10%;
 }
 
 /*Pagina 6 Estructuras*/
 #Tabla1E{
-    background-color: black; 
-    width: 100%; 
-    border-collapse: collapse; 
-    border: 10px solid black;
-}
-#Tabla2E{
+    margin-top: -5%;
     font-size: 100%;
     text-align: left;
     width: 90%;
