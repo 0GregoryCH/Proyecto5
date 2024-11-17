@@ -203,11 +203,42 @@ body{
     width: 90%;
 }
 #Txt1E{
-    font-size: 120%;
+    margin-top: -3%;
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 6%;
 }
 #Txt2E{
     background-color: rgba(163, 163, 163, 0.404); 
-    width: 23%;
+    width: 25%;
+}
+#ColumnaE{
+    float: left;
+    font-size: 50px;
+    width: 20%;
+    margin: 50px 1%;
+    background-color: #616060;
+    border-radius: 0px;
+}
+#SeccionE{
+    padding: 50px;
+    margin: 50px 1%;
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative;
+}
+#Seccion2E{
+    float: right;
+    font-size: 20px;
+    width: 39%;
+    margin: -250px 1%; 
+    color: whitesmoke;
+}
+#seccVid{
+    margin: 60px;
+    padding: 60px;
+}
+#Seccion4{
+    float: right;
+    width: 39%;
+    margin: -650px 1%; 
 }
