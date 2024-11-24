@@ -10,7 +10,7 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casas en Venta</title>
     <style>
-        body {
+        body{
             font-family: Arial, sans-serif;
             padding: 20px;
             display: flex;
@@ -20,7 +20,7 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
             margin: 0;
             background-color: #f0f0f0;
         }
-        .gallery {
+        .gallery{
             width: 850px;
             height: 80vh;
             display: flex;
@@ -29,14 +29,14 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
             padding: 10px;
             box-sizing: border-box;
         }
-        .gallery img {
+        .gallery img{
             width: 100%;
             height: auto;
             border-radius: 1px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .line {
-            margin-top: 10px;
+        .line{
+            margin-top: 1px;
             width: 100%;
             height: 3px;
             background-color: red;
@@ -47,8 +47,8 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
 <body style="background-color: rgb(53, 52, 52);">
     <div class="gallery">
         <?php
-        foreach ($imagenes as $imagen) {
-            if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $imagen)) {
+        foreach ($imagenes as $imagen){
+            if (preg_match('/\.(jpg|jpeg|png|gif)$/i', $imagen)){
                 echo "<div>";
                 echo "<img src='" . htmlspecialchars($directorio . $imagen) . "' alt='" . htmlspecialchars($imagen) . "'>";
                 echo "<div class='line'></div>";
