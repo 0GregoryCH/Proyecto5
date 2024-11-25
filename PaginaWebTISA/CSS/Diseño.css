@@ -42,6 +42,11 @@ body{
     background-size: cover; 
     background-position: top left;
 }
+@media (max-width: 1050px){
+    #BodyI {
+        background-image: url('../Multimedia/Imagenes/FondoCelularI.png');
+    }
+}
 #Tabla1I{
     background-color: black; 
     width: 100%; 
@@ -124,6 +129,16 @@ body{
     background-size: cover;
     background-position: top left;
 }
+@media (max-width: 1050px){
+    #BodySN {
+        background-image: url('../Multimedia/Imagenes/FondoCelular1SN.JPG');
+    }
+}
+@media (max-width: 650px){
+    #BodySN {
+        background-image: url('../Multimedia/Imagenes/FondoCelular2SN.JPG');
+    }
+}
 #Txt1SN{
     margin-top: -1%;
     font-size: 50px;
@@ -161,10 +176,10 @@ body{
     border-radius: 0%;
     border-start-end-radius: 0%;
     color: red;
-}
+} 
 #Imagen1C{
-    width:"900";
-    height:"320";
+    width:"320";
+    height:"100";
 }
 #Tabla2C{
     font-size: 50px;
@@ -175,6 +190,11 @@ body{
     background-image: url('../Multimedia/Imagenes/FondoOrg.jpeg');
     background-size: cover; 
     background-position: top left;
+}
+@media (max-width: 800px){
+    #BodyPI {
+        background-image: url('../Multimedia/Imagenes/FondoCelularPI.png');
+    }
 }
 #Seccion1PI{
     margin-top: -5%;
@@ -191,7 +211,7 @@ body{
 }
 #Imagen2PI{
     width:"100";
-    height:"200";
+    height:"99";
 }
 #Txt2PI{
     width: 95%;   
@@ -272,74 +292,86 @@ body{
 
 /*Responsivo txt*/
 @media (max-width: 1200px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.9rem !important;
     }
 }
 
 @media (max-width: 992px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.8rem !important; 
     }
 }
 
 @media (max-width: 768px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.7rem !important; 
     }
 }
 
 @media (max-width: 576px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.6rem !important; 
     }
 }
 
 @media (max-width: 490px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.4rem !important; 
     }
 }
 
 @media (max-width: 300px){
-    a, div, nav, table, p, h1, h2, h3, h4, h5, h6, span, td, th {
+    a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.2rem !important; 
     }
 }
 
+@media (max-width: 100){
+    a, div, nav, table, p, h1, h2, td, th {
+        font-size: 0.1rem !important; 
+    }
+}
+
 /*Responsivo Imagen*/
-@media (max-width: 1200px) {
+@media (max-width: 1200px){
     #Imagen1C {
         max-width: 80% !important;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px){
     #Imagen1C {
         max-width: 70% !important;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
     #Imagen1C {
         max-width: 60% !important;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px){
     #Imagen1C {
         max-width: 50% !important;
     }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 490px){
     #Imagen1C {
         max-width: 40% !important;
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 300px){
     #Imagen1C {
         max-width: 30% !important;
+    }
+}
+
+@media (max-width: 100px){
+    #Imagen1C {
+        max-width: 10% !important;
     }
 }

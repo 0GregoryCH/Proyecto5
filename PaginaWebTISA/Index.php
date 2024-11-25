@@ -15,8 +15,8 @@ $imagenes = array_diff(scandir($directorio), array('..', '.'));
             padding: 20px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+            align-items: initial;
+            height: 300vh;
             margin: 0;
             background-color: #f0f0f0;
         }

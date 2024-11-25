@@ -54,3 +54,9 @@ a:hover{
         font-size: 0.2rem; 
     }
 }
+
+@media (max-width: 100px){
+    a {
+        font-size: 0.1rem; 
+    }
+}
