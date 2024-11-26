@@ -166,6 +166,47 @@ body{
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media (max-width: 1200px){
+    #Imagen1C {
+        max-width: 80% !important;
+    }
+}
+
+@media (max-width: 992px){
+    #Imagen1C {
+        max-width: 70% !important;
+    }
+}
+
+@media (max-width: 768px){
+    #Imagen1C {
+        max-width: 60% !important;
+    }
+}
+
+@media (max-width: 576px){
+    #Imagen1C {
+        max-width: 50% !important;
+    }
+}
+
+@media (max-width: 490px){
+    #Imagen1C {
+        max-width: 40% !important;
+    }
+}
+
+@media (max-width: 300px){
+    #Imagen1C {
+        max-width: 30% !important;
+    }
+}
+
+@media (max-width: 100px){
+    #Imagen1C {
+        max-width: 10% !important;
+    }
+}
 #Div1C{
     width: 95%;   
     font-size: 213%;
@@ -243,54 +284,99 @@ body{
 }
 
 /*Pagina 6 Estructuras*/
-#Tabla1E{
-    margin-top: -5%;
-    font-size: 100%;
-    text-align: left;
-    width: 90%;
+#BodyE{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+}
+#HeadE{
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #Txt1E{
-    margin-top: -3%;
+    padding-left: 30px;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#Txt2E{
-    background-color: rgba(163, 163, 163, 0.404); 
-    width: 25%;
-}
-#Columna1E{
-    float: left;
-    font-size: 50px;
-    width: 20%;
-    margin: 50px 1%;
-    background-color: #616060;
-    border-radius: 0px;
+#Main1E{
+    padding: 20px;
 }
 #Seccion1E{
-    padding: 50px;
-    margin: 50px 1%;
-    font-size: 20px;
-    color: whitesmoke;
-    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
 }
-#Seccion2E{
-    float: right;
-    font-size: 20px;
-    width: 39%;
-    margin: -250px 1%; 
-    color: whitesmoke;
+#DescripcionE{
+    flex: 1;
+    background-color: #616060;
+    padding: 20px;
+    border-radius: 10px;
+}
+#Div1E img{
+    width: 100%;
+    border-radius: 10px;
+}
+#TxtGeneralE{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#Div2E{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#Div2E img{
+    width: 100%;
+    border-radius: 10px;
 }
 #Seccion3E{
-    margin: 60px;
-    padding: 60px;
+    text-align: center;
 }
-#Seccion4E{
-    float: right;
-    width: 39%;
-    margin: -650px 1%; 
+#Seccion3E video{
+    width: 35%;
+    border-radius: 10px;
+}
+#Seccion4E img{
+    width: 100%;
+    border-radius: 10px;
 }
 
-/*Responsivo txt*/
+@media (max-width: 768px) {
+    #Seccion1E {
+        flex-direction: column;
+    }
+    #Div2E {
+        flex-direction: column;
+    }
+    #Div2E img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #HeadE {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #DescripcionE {
+        font-size: 25px;
+    }
+    #TxtGeneralE {
+        font-size: 20px;
+    }
+    #Seccion3E video{
+        width: 95%;
+        border-radius: 10px;
+    }
+}
+
+/*Responsivo txt General*/
 @media (max-width: 1200px){
     a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.9rem !important;
@@ -330,48 +416,5 @@ body{
 @media (max-width: 100){
     a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.1rem !important; 
-    }
-}
-
-/*Responsivo Imagen*/
-@media (max-width: 1200px){
-    #Imagen1C {
-        max-width: 80% !important;
-    }
-}
-
-@media (max-width: 992px){
-    #Imagen1C {
-        max-width: 70% !important;
-    }
-}
-
-@media (max-width: 768px){
-    #Imagen1C {
-        max-width: 60% !important;
-    }
-}
-
-@media (max-width: 576px){
-    #Imagen1C {
-        max-width: 50% !important;
-    }
-}
-
-@media (max-width: 490px){
-    #Imagen1C {
-        max-width: 40% !important;
-    }
-}
-
-@media (max-width: 300px){
-    #Imagen1C {
-        max-width: 30% !important;
-    }
-}
-
-@media (max-width: 100px){
-    #Imagen1C {
-        max-width: 10% !important;
     }
 }
