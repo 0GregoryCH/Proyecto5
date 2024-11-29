@@ -8,8 +8,8 @@ a{
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 a:hover{
-    background-color: #0a5688;
-    box-shadow: 0 0px 7px rgb(150, 206, 223);
+    background-color: #11be28;
+    box-shadow: 0 0px 7px rgb(209, 252, 160);
 }
 p{
     color: white;
@@ -30,11 +30,13 @@ body{
     margin-top: -0.5%;
     margin-left: -0.5%;
 }
+/*Fin*/
 
 /*Pagina General*/
 #HeadG{
     background-color: none;
 }
+/*Fin*/
 
 /*Pagina 1 inicio*/ 
 #BodyI{
@@ -90,6 +92,7 @@ body{
     background-color:  rgb(95, 95, 95, 0.3); color: white; width: 39%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
+/*Fin*/
 
 /*Pagina 2 Casas en Venta*/
 #Tabla1CV{
@@ -122,6 +125,7 @@ body{
     aspect-ratio: 16 / 9; 
     border: none;
 }
+/*Fin*/
 
 /*Pagina 3 Sobre Nosotros*/
 #BodySN{
@@ -159,6 +163,7 @@ body{
     border-radius: 0%;
     border-start-end-radius: 0%;
 }
+/*Fin*/
 
 /*Pagina 4 Contactos*/
 #Txt1C{
@@ -225,6 +230,11 @@ body{
 #Tabla2C{
     font-size: 50px;
 }
+#CorreoC:hover{
+    background-color: #aa4a0a;
+    box-shadow: 0 0px 7px rgb(252, 180, 46);
+}
+/*Fin*/
 
 /*Pagina 5 Puntos de importancia*/ 
 #BodyPI{
@@ -282,6 +292,7 @@ body{
     width: 60%;
     margin-bottom: 10%;
 }
+/*Fin*/
 
 /*Pagina 6 Estructuras*/
 #BodyE{
@@ -331,10 +342,6 @@ body{
     gap: 10px;
     margin-bottom: 10px;
 }
-#Div2E img{
-    width: 100%;
-    border-radius: 10px;
-}
 #Seccion3E{
     text-align: center;
 }
@@ -375,6 +382,45 @@ body{
         border-radius: 10px;
     }
 }
+
+.carousel-item .container{
+    width: 10%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item img{
+    max-width: 50%; /* Ajusta el ancho máximo al 50% del contenedor */
+    max-height: 50%; /* Ajusta la altura máxima */
+    margin: 2% auto 2%; /* Centra las imágenes dentro del carrusel */
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+}
+.carousel{
+    position: relative;
+    max-width: 80%; /* Igual al max-width de las imágenes */
+    margin: auto; /* Centra el carrusel */
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 42%; /* Define un ancho razonable para las flechas */
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.carousel-control-prev{
+    left: 5%; /* Ajusta la posición hacia la izquierda */
+}
+.carousel-control-next{
+    right: 5%; /* Ajusta la posición hacia la derecha */
+}
+.badge{
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
+    padding: 1rem; /* Aumenta el espacio interno */
+    width: 80px; /* Ancho fijo para que todas sean uniformes */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+/*Fin*/
 
 /*Responsivo txt General*/
 @media (max-width: 1200px){
@@ -418,3 +464,4 @@ body{
         font-size: 0.1rem !important; 
     }
 }
+/*Fin*/
