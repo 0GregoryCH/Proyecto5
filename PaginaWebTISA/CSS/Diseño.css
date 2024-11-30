@@ -1,6 +1,6 @@
 /*Todo*/
 a{
-    display: inline-block;
+    display: block;
     text-decoration: none; 
     border: none;  
     list-style: none;
@@ -462,6 +462,12 @@ body{
 @media (max-width: 100){
     a, div, nav, table, p, h1, h2, td, th {
         font-size: 0.1rem !important; 
+    }
+}
+
+@media (max-width: 50){
+    a, div, nav, table, p, h1, h2, td, th {
+        font-size: 0.01rem !important; 
     }
 }
 /*Fin*/
