@@ -57,20 +57,17 @@ body{
 }
 #Div1I{
     width: 95%;   
-    font-size: 30px;
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 10%;
-    margin-left: 16.5%;
     border-radius: 0%;
     border-start-end-radius: 0%;
-    background-color:  rgb(95, 95, 95, 0.3); color: white; width: 65%;
+    background-color:  rgb(95, 95, 95, 0.3); ; color: white; width: 98.5%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
 #Div2I{
-    width: 99%;   
-    font-size: 33px;
+    width: 98.5%;   
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
@@ -81,23 +78,36 @@ body{
 }
 #Div3I{
     width: 30%;   
-    font-size: 35px;
     font-family:monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 2%;
-    margin-left: 29%;
     border-radius: 0%;
     border-start-end-radius: 0%;
-    background-color:  rgb(95, 95, 95, 0.3); color: white; width: 39%;
+    background-color:  rgb(95, 95, 95, 0.3); color: white; width: 98.5%;
     /*box-shadow: 0px 4px 10px #fff;*/
 }
 /*Fin*/
 
 /*Pagina 2 Casas en Venta*/
 #Tabla1CV{
-    margin-top: 1.5%;
+    margin-top: 2%;
     width: 100%; border-collapse: collapse;
+}
+@media (max-width: 650px){
+    #Tabla1CV {
+        margin-top: -11% !important;
+    }
+}
+@media (max-width: 500px){
+    #Tabla1CV {
+        margin-top: -13% !important;
+    }
+}
+@media (max-width: 400px){
+    #Tabla1CV {
+        margin-top: -15% !important;
+    }
 }
 #Encabezado1CV{
     color: white;
@@ -115,14 +125,15 @@ body{
     justify-content: center;
     align-items: center;
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     box-sizing: border-box;
 }
 #Seccion2CV iframe{
-    width: 90% !important; 
+    width: 99% !important; 
+    height: 99% !important; 
     max-width: 1080px; 
     height: auto !important;
-    aspect-ratio: 16 / 9; 
+    aspect-ratio: 1000 / 1000; 
     border: none;
 }
 /*Fin*/
@@ -141,6 +152,11 @@ body{
 @media (max-width: 650px){
     #BodySN {
         background-image: url('../Multimedia/Imagenes/FondoCelular2SN.JPG');
+    }
+}
+@media (max-width: 490px){
+    #BodySN {
+        background-image: url('../Multimedia/Imagenes/FondoCeluar3SN.png');
     }
 }
 #Txt1SN{
@@ -173,43 +189,43 @@ body{
 }
 @media (max-width: 1200px){
     #Imagen1C {
-        max-width: 80% !important;
+        max-width: 90% !important;
     }
 }
 
 @media (max-width: 992px){
     #Imagen1C {
-        max-width: 70% !important;
+        max-width: 80% !important;
     }
 }
 
 @media (max-width: 768px){
     #Imagen1C {
-        max-width: 60% !important;
+        max-width: 70% !important;
     }
 }
 
 @media (max-width: 576px){
     #Imagen1C {
-        max-width: 50% !important;
+        max-width: 60% !important;
     }
 }
 
 @media (max-width: 490px){
     #Imagen1C {
-        max-width: 40% !important;
+        max-width: 50% !important;
     }
 }
 
 @media (max-width: 300px){
     #Imagen1C {
-        max-width: 30% !important;
+        max-width: 40% !important;
     }
 }
 
 @media (max-width: 100px){
     #Imagen1C {
-        max-width: 10% !important;
+        max-width: 20% !important;
     }
 }
 #Div1C{
@@ -244,7 +260,12 @@ body{
 }
 @media (max-width: 800px){
     #BodyPI {
-        background-image: url('../Multimedia/Imagenes/FondoCelularPI.png');
+        background-image: url('../Multimedia/Imagenes/FondoCelular1PI.png');
+    }
+}
+@media (max-width: 800px){
+    #BodyPI {
+        background-image: url('../Multimedia/Imagenes/FondoCelular2PI.PNG');
     }
 }
 #Seccion1PI{
@@ -254,7 +275,7 @@ body{
     font-size: 46px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
-    width: 30%;
+    width: 100%;
 }
 #Imagen1PI{
     width:"100";
@@ -423,51 +444,58 @@ body{
 /*Fin*/
 
 /*Responsivo txt General*/
+@media (max-width: 2000px){
+    a, nav, div, p, h1, h2, td, th {
+        font-size: 2rem !important;
+    }
+}
+
 @media (max-width: 1200px){
-    a, div, nav, table, p, h1, h2, td, th {
-        font-size: 0.9rem !important;
+    a, nav, div, p, h1, h2, td, th {
+        font-size: 1.6rem !important;
     }
 }
 
-@media (max-width: 992px){
-    a, div, nav, table, p, h1, h2, td, th {
-        font-size: 0.8rem !important; 
-    }
-}
-
-@media (max-width: 768px){
-    a, div, nav, table, p, h1, h2, td, th {
+@media (max-width: 600px){
+    a, nav,div, p, h1, h2, td, th {
         font-size: 0.7rem !important; 
     }
 }
 
-@media (max-width: 576px){
-    a, div, nav, table, p, h1, h2, td, th {
+@media (max-width: 500px){
+    a, nav, div, p, h1, h2, td, th {
         font-size: 0.6rem !important; 
     }
 }
 
-@media (max-width: 490px){
-    a, div, nav, table, p, h1, h2, td, th {
-        font-size: 0.4rem !important; 
+@media (max-width: 400px){
+    a, nav, div, p, h1, h2, td, th {
+        font-size: 0.6rem !important; 
     }
 }
 
 @media (max-width: 300px){
-    a, div, nav, table, p, h1, h2, td, th {
+    a, nav, div, p, h1, h2, td, th {
+        font-size: 0.4rem !important; 
+    }
+}
+
+@media (max-width: 200){
+    a, nav, div, p, h1, h2, td, th {
+        font-size: 0.3rem !important; 
+    }
+}
+
+@media (max-width: 100px){
+    a, nav, div, p, h1, h2, td, th {
         font-size: 0.2rem !important; 
     }
 }
 
-@media (max-width: 100){
-    a, div, nav, table, p, h1, h2, td, th {
+@media (max-width: 50){
+    a, nav, div, p, h1, h2, td, th {
         font-size: 0.1rem !important; 
     }
 }
 
-@media (max-width: 50){
-    a, div, nav, table, p, h1, h2, td, th {
-        font-size: 0.01rem !important; 
-    }
-}
 /*Fin*/
