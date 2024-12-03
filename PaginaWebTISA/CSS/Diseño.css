@@ -91,17 +91,18 @@ body{
 
 /*Pagina 2 Casas en Venta*/
 #Tabla1CV{
-    margin-top: 2%;
-    width: 100%; border-collapse: collapse;
+    margin-top: 3%;
+    width: 100%; 
+    border-collapse: collapse;
 }
 @media (max-width: 650px){
     #Tabla1CV {
-        margin-top: -11% !important;
+        margin-top: -5% !important;
     }
 }
 @media (max-width: 500px){
     #Tabla1CV {
-        margin-top: -13% !important;
+        margin-top: -10% !important;
     }
 }
 @media (max-width: 400px){

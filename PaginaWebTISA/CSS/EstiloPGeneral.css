@@ -1,18 +1,24 @@
 /* Estilos generales */
-#Tabla1I{
+body{
+    overflow: hidden;
+}
+#Nav1G{
+    text-align: center;
     background-color: black; 
-    width: 100%; 
+    width: 99%; 
     border-collapse: collapse; 
     border: 10px solid black;
 }
 a{
+    padding-left: 3%;
+    padding-right: 3%;
     display: inline-block;
-    text-decoration: none; 
+    text-decoration: none;
     border: none;  
     list-style: none;
     color: white;
     transition: background-color 0.3s, box-shadow 0.3s;
-    font-size: 1rem; 
+    font-size: 0.7rem; 
 }
 a:hover{
     background-color: #0a5688;
@@ -21,13 +27,13 @@ a:hover{
 
 @media (max-width: 2500px){
     a {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 1600px){
     a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -39,36 +45,6 @@ a:hover{
 
 @media (max-width: 992px){
     a {
-        font-size: 0.8rem; 
-    }
-}
-
-@media (max-width: 768px){
-    a {
         font-size: 0.7rem; 
-    }
-}
-
-@media (max-width: 576px){
-    a {
-        font-size: 0.6rem; 
-    }
-}
-
-@media (max-width: 490px){
-    a {
-        font-size: 0.3rem; 
-    }
-}
-
-@media (max-width: 370px){
-    a {
-        font-size: 0.2rem; 
-    }
-}
-
-@media (max-width: 100px){
-    a {
-        font-size: 0.1rem; 
     }
 }
