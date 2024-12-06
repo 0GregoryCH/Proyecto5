@@ -30,6 +30,11 @@ body{
     margin-top: -0.5%;
     margin-left: -0.5%;
 }
+#DivFooter{
+    margin-top: 15%;
+    text-align: left;
+}
+
 /*Fin*/
 
 /*Pagina General*/
@@ -114,7 +119,7 @@ body{
     color: white;
 }
 #BodyCV{
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: rgb(53, 52, 52);
 }
 #Seccion1CV{
