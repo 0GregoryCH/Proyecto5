@@ -4,22 +4,17 @@ body{
     background: none;
 }
 #navbarNav{
-    text-align: center;
-    background-color: black; 
-    width: 99%; 
+    text-align: left;
     border-collapse: collapse; 
-    border: 10px solid black;
 }
 div, li{
-    background-color: black;
-    margin-left: 55px;
+    margin-left: 15px;
 }
 a{
     display: inline-block;
     text-decoration: none;
     border: none;  
     list-style: none;
-    background-color: black !important;
     color: white !important;
     transition: background-color 0.3s, box-shadow 0.3s;
     font-size: 0.7rem; 
@@ -31,24 +26,24 @@ a:hover{
 
 @media (max-width: 2500px){
     a {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
 }
 
 @media (max-width: 1600px){
     a {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 }
 
 @media (max-width: 1200px){
     a {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 }
 
 @media (max-width: 992px){
     a {
-        font-size: 0.7rem; 
+        font-size: 0.7rem !important; 
     }
 }

@@ -31,18 +31,36 @@ body{
     display: flex;
 }
 #SeccionGeneral2{
-    margin-top: 50% !important;
+    margin-top: 25% !important;
+}
+@media (max-width: 1080px){
+    #SeccionGeneral2{
+        margin-top: 25% !important;
+    }
+}
+@media (max-width: 550px){
+    #SeccionGeneral2{
+        margin-top: 55% !important;
+    }
+}
+@media (max-width: 350px){
+    #SeccionGeneral2{
+        margin-top: 65% !important;
+    }
+}
+@media (max-width: 200px){
+    #SeccionGeneral2{
+        margin-top: 70% !important;
+    }
 }
 #IframeGeneral{
     position: absolute;
     border: none;
-    z-index: 1;
 }
 #DivFooter{
     margin-top: 15%;
     text-align: left;
 }
-
 /*Fin*/
 
 /*Pagina General*/
@@ -102,26 +120,45 @@ body{
 }
 /*Fin*/
 
+/* SubPagina 2 Casas en Venta php*/
+#BodyCVphp{
+    font-family: Arial, sans-serif !important;
+    padding: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: initial !important;
+    height: 315vh !important;
+    margin: 0 !important;
+    background-color: #5c5555 !important;
+}
+.Div1CVphp{
+    width: 850px !important;
+    height: 80vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px! important;
+    box-sizing: border-box !important;
+}
+.Div1CVphp img{
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 1px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+.LineaCVphp{
+    margin-top: 1px !important;
+    width: 100% !important;
+    height: 3px !important;
+    background-color: red !important;
+}
+/*Fin*/
+
 /*Pagina 2 Casas en Venta*/
 #Tabla1CV{
     margin-top: 3% !important; 
     width: 100% !important;  
     border-collapse: collapse !important; 
-}
-@media (max-width: 650px){
-    #Tabla1CV {
-        margin-top: -5% !important;
-    }
-}
-@media (max-width: 500px){
-    #Tabla1CV {
-        margin-top: -10% !important;
-    }
-}
-@media (max-width: 400px){
-    #Tabla1CV {
-        margin-top: -15% !important;
-    }
 }
 #Encabezado1CV{
     color: white !important; 
@@ -131,8 +168,37 @@ body{
     background-color: rgb(53, 52, 52) !important; 
 }
 #Seccion1CV{
-    margin-top: -6% !important; 
     text-align: center !important;  
+}
+@media (min-width: 700px){
+    #Seccion1CV {
+        margin-top: 15% !important;
+    }
+}
+@media (max-width: 700px){
+    #Seccion1CV {
+        margin-top: 30% !important;
+    }
+}
+@media (max-width: 600px){
+    #Seccion1CV {
+        margin-top: 40% !important;
+    }
+}
+@media (max-width: 500px){
+    #Seccion1CV {
+        margin-top: 50% !important;
+    }
+}
+@media (max-width: 400px){
+    #Seccion1CV {
+        margin-top: 60% !important;
+    }
+}
+@media (max-width: 300px){
+    #Seccion1CV {
+        margin-top: 70% !important;
+    }
 }
 #Seccion2CV{
     display: flex !important; 
@@ -140,17 +206,16 @@ body{
     align-items: center !important; 
     width: 100% !important;
     height: 100% !important;
-    box-sizing: border-box !important; 
+    box-sizing: border-box 100% !important; 
 }
 #IframeCV{
     width: 99% !important; 
     height: 99% !important; 
     max-width: 1080px !important;  
     height: auto !important;
-    aspect-ratio: 1000 / 1000 !important;  
+    aspect-ratio: 10000 / 10000 !important;  
     border: none !important; 
 }
-
 /*Fin*/
 
 /*Pagina 3 Sobre Nosotros*/
@@ -207,37 +272,31 @@ body{
         max-width: 90% !important;
     }
 }
-
 @media (max-width: 992px){
     #Imagen1C {
         max-width: 80% !important;
     }
 }
-
 @media (max-width: 768px){
     #Imagen1C {
         max-width: 70% !important;
     }
 }
-
 @media (max-width: 576px){
     #Imagen1C {
         max-width: 60% !important;
     }
 }
-
 @media (max-width: 490px){
     #Imagen1C {
         max-width: 50% !important;
     }
 }
-
 @media (max-width: 300px){
     #Imagen1C {
         max-width: 40% !important;
     }
 }
-
 @media (max-width: 100px){
     #Imagen1C {
         max-width: 20% !important;
@@ -389,7 +448,6 @@ body{
     width: 100%;
     border-radius: 10px;
 }
-
 @media (max-width: 768px) {
     #Seccion1E {
         flex-direction: column;
@@ -401,7 +459,6 @@ body{
         width: 100%;
     }
 }
-
 @media (max-width: 480px) {
     #HeadE {
         flex-direction: column;
@@ -418,7 +475,6 @@ body{
         border-radius: 10px;
     }
 }
-
 .carousel-item .container{
     width: 10%;
     height: 10%;
