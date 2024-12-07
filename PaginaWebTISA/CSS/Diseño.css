@@ -19,6 +19,7 @@ td{
 }
 head{
     background-color: rgb(53, 52, 52);
+    display: flex;
 }
 meta{
     background-color: rgb(53, 52, 52);
@@ -27,8 +28,7 @@ body{
     background-color: rgb(53, 52, 52); 
 }
 #SeccionGeneral{
-    margin-top: -0.5%;
-    margin-left: -0.5%;
+    display: flex;
 }
 #DivFooter{
     margin-top: 15%;

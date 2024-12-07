@@ -1,28 +1,32 @@
 /* Estilos generales */
 body{
     overflow: hidden;
+    background: none;
 }
-#Nav1G{
+#navbarNav{
     text-align: center;
     background-color: black; 
     width: 99%; 
     border-collapse: collapse; 
     border: 10px solid black;
 }
+div, li{
+    background-color: black;
+    margin-left: 55px;
+}
 a{
-    padding-left: 3%;
-    padding-right: 3%;
     display: inline-block;
     text-decoration: none;
     border: none;  
     list-style: none;
-    color: white;
+    background-color: black !important;
+    color: white !important;
     transition: background-color 0.3s, box-shadow 0.3s;
     font-size: 0.7rem; 
 }
 a:hover{
-    background-color: #0a5688;
-    box-shadow: 0 0px 7px rgb(150, 206, 223);
+    background-color: #0a5688 !important;
+    box-shadow: 0 0px 7px rgb(150, 206, 223) !important;
 }
 
 @media (max-width: 2500px){

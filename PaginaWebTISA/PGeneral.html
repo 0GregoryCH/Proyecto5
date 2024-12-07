@@ -15,19 +15,60 @@
     </table>
     <section>
         <!--Pagina Iconos fontawesome-->
-	    <!--https://fontawesome.com/search?o=r&s=solid&f=sharp-duotone-->
-        <nav class="navbar navbar-expand-md" id="Nav1G" border="">
+        <!--https://fontawesome.com/search?o=r&s=solid&f=sharp-duotone-->
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html" target="_top"><i class="fa-solid fa-house-chimney"></i> Inicio</a>
-                <a class="navbar-brand" href="P2CasasVenta.html" target="_top"><i class="fa-solid fa-circle-dollar-to-slot"></i> Casas en venta</a>
-                <a class="navbar-brand" href="P3SobreNosotros.html" target="_top"><i class="fa-solid fa-people-roof"></i> Sobre nosotros</a>
-                <a class="navbar-brand" href="P4Contactos.html" target="_top"><i class="fa-solid fa-message"></i> Contactos</a>
-                <a class="navbar-brand" href="P5PuntosImportancia.html" target="_top"><i class="fa-solid fa-house-medical-circle-exclamation"></i> Puntos de importancia</a>
-                <a class="navbar-brand" href="P6Estructuras.html" target="_top"><i class="fa-solid fa-gears"></i> Estructuras</a>
+                <!-- Botón de hamburguesa para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Enlace principal -->
+                <a class="navbar-brand" href="index.html" target="_top">
+                    <i class="fa-solid fa-house-chimney"></i> Inicio
+                </a>
+
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="P2CasasVenta.html" target="_top">
+                                <i class="fa-solid fa-circle-dollar-to-slot"></i> Casas en venta
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="P3SobreNosotros.html" target="_top">
+                                <i class="fa-solid fa-people-roof"></i> Sobre nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="P4Contactos.html" target="_top">
+                                <i class="fa-solid fa-message"></i> Contactos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="P5PuntosImportancia.html" target="_top">
+                                <i class="fa-solid fa-house-medical-circle-exclamation"></i> Puntos de importancia
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="P6Estructuras.html" target="_top">
+                                <i class="fa-solid fa-gears"></i> Estructuras
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </nav>       
+        </nav>
     </section>
+
+    <!-- Incluir Font Awesome y Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="CSS/EstiloPGeneral.css">
 </head>
 <body>
