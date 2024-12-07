@@ -27,8 +27,16 @@ meta{
 body{
     background-color: rgb(53, 52, 52); 
 }
-#SeccionGeneral{
+#SeccionGeneral1{
     display: flex;
+}
+#SeccionGeneral2{
+    margin-top: 50% !important;
+}
+#IframeGeneral{
+    position: absolute;
+    border: none;
+    z-index: 1;
 }
 #DivFooter{
     margin-top: 15%;
@@ -96,9 +104,9 @@ body{
 
 /*Pagina 2 Casas en Venta*/
 #Tabla1CV{
-    margin-top: 3%;
-    width: 100%; 
-    border-collapse: collapse;
+    margin-top: 3% !important; 
+    width: 100% !important;  
+    border-collapse: collapse !important; 
 }
 @media (max-width: 650px){
     #Tabla1CV {
@@ -116,32 +124,33 @@ body{
     }
 }
 #Encabezado1CV{
-    color: white;
+    color: white !important; 
 }
 #BodyCV{
     /*overflow: hidden;*/
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52) !important; 
 }
 #Seccion1CV{
-    margin-top: -6%;
-    text-align: center;
+    margin-top: -6% !important; 
+    text-align: center !important;  
 }
 #Seccion2CV{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important; 
+    justify-content: center !important; 
+    align-items: center !important; 
     width: 100% !important;
     height: 100% !important;
-    box-sizing: border-box;
+    box-sizing: border-box !important; 
 }
-#Seccion2CV iframe{
+#IframeCV{
     width: 99% !important; 
     height: 99% !important; 
-    max-width: 1080px; 
+    max-width: 1080px !important;  
     height: auto !important;
-    aspect-ratio: 1000 / 1000; 
-    border: none;
+    aspect-ratio: 1000 / 1000 !important;  
+    border: none !important; 
 }
+
 /*Fin*/
 
 /*Pagina 3 Sobre Nosotros*/
