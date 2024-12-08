@@ -11,6 +11,10 @@ a:hover{
     background-color: #11be28;
     box-shadow: 0 0px 7px rgb(209, 252, 160);
 }
+#CorreoC:hover{
+    background-color: #aa4a0a;
+    box-shadow: 0 0px 7px rgb(252, 180, 46);
+}
 p{
     color: white;
 }
@@ -25,32 +29,44 @@ meta{
     background-color: rgb(53, 52, 52);
 }
 body{
-    background-color: rgb(53, 52, 52); 
+    background-color: rgb(53, 52, 52);
 }
 #SeccionGeneral1{
     display: flex;
 }
-#SeccionGeneral2{
-    margin-top: 25% !important;
+@media (min-width: 1080px){
+    #SeccionGeneral2{
+        margin-top: 10% !important;
+    }
 }
 @media (max-width: 1080px){
+    #SeccionGeneral2{
+        margin-top: 20% !important;
+    }
+}
+@media (max-width: 720px){
     #SeccionGeneral2{
         margin-top: 25% !important;
     }
 }
 @media (max-width: 550px){
     #SeccionGeneral2{
-        margin-top: 55% !important;
+        margin-top: 30% !important;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 420px){
     #SeccionGeneral2{
-        margin-top: 65% !important;
+        margin-top: 35% !important;
     }
 }
-@media (max-width: 200px){
+@media (max-width: 290px){
     #SeccionGeneral2{
-        margin-top: 70% !important;
+        margin-top: 40% !important;
+    }
+}
+@media (max-width: 120px){
+    #SeccionGeneral2{
+        margin-top: 45% !important;
     }
 }
 #IframeGeneral{
@@ -58,7 +74,8 @@ body{
     border: none;
 }
 #DivFooter{
-    margin-top: 15%;
+    margin-top: 20%;
+    margin-left: 5%;
     text-align: left;
 }
 /*Fin*/
@@ -88,7 +105,7 @@ body{
 }
 #Div1I{
     width: 95%;   
-    font-family:monospace;
+    font-family: monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 10%;
@@ -99,7 +116,7 @@ body{
 }
 #Div2I{
     width: 98.5%;   
-    font-family:monospace;
+    font-family: monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 2%;
@@ -109,7 +126,7 @@ body{
 }
 #Div3I{
     width: 30%;   
-    font-family:monospace;
+    font-family: monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 2%;
@@ -160,7 +177,7 @@ body{
     width: 100% !important;  
     border-collapse: collapse !important; 
 }
-#Encabezado1CV{
+#Encabezado1CV, #Encabezado2CV{
     color: white !important; 
 }
 #BodyCV{
@@ -169,31 +186,6 @@ body{
 }
 #Seccion1CV{
     text-align: center !important;  
-}
-@media (min-width: 700px){
-    #Seccion1CV {
-        margin-top: 15% !important;
-    }
-}
-@media (max-width: 700px){
-    #Seccion1CV {
-        margin-top: 30% !important;
-    }
-}
-@media (max-width: 600px){
-    #Seccion1CV {
-        margin-top: 40% !important;
-    }
-}
-@media (max-width: 500px){
-    #Seccion1CV {
-        margin-top: 50% !important;
-    }
-}
-@media (max-width: 400px){
-    #Seccion1CV {
-        margin-top: 60% !important;
-    }
 }
 @media (max-width: 300px){
     #Seccion1CV {
@@ -242,30 +234,50 @@ body{
 #Txt1SN{
     margin-top: -1%;
     font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #Txt2SN{
     font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #Txt3SN{
     width: 95%;   
     font-size: 20px;
     background-color: rgb(133, 131, 131, 0.5);
-    font-family:monospace;
+    font-family: monospace;
     padding: 5px 5px;
     text-align: center;
     margin-top: 5%;
     border-radius: 0%;
     border-start-end-radius: 0%;
 }
+#Seccion1SN, #Txt4SN {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 0;
+    padding: 0;
+}
+#Seccion1SN iframe {
+    width: 50%; 
+    height: 50%; 
+    max-width: 800px;
+    max-height: 600px; 
+}
+#DivFooterSN{
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+
 /*Fin*/
 
 /*Pagina 4 Contactos*/
 #Txt1C{
     margin-top: -1%;
     font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 @media (max-width: 1200px){
     #Imagen1C {
@@ -305,31 +317,27 @@ body{
 #Div1C{
     width: 95%;   
     font-size: 213%;
-    font-family:monospace;
+    font-family: monospace;
     padding: 5px 5px;
-    text-align:left;
+    text-align: left;
     margin-top: 0.01%;
     border-radius: 0%;
     border-start-end-radius: 0%;
     color: red;
 } 
 #Imagen1C{
-    width:"320";
-    height:"100";
+    width: "320";
+    height: "100";
 }
 #Tabla2C{
     font-size: 50px;
-}
-#CorreoC:hover{
-    background-color: #aa4a0a;
-    box-shadow: 0 0px 7px rgb(252, 180, 46);
 }
 /*Fin*/
 
 /*Pagina 5 Puntos de importancia*/ 
 #BodyPI{
     background-image: url('../Multimedia/Imagenes/FondoOrg.jpeg');
-    background-size: cover; 
+    background-size: cover;
     background-position: top left;
 }
 @media (max-width: 800px){
@@ -343,29 +351,29 @@ body{
     }
 }
 #Seccion1PI{
-    margin-top: -5%;
+    margin-top: 3%;
 }
 #Txt1PI{
     font-size: 46px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 6%;
     width: 100%;
 }
 #Imagen1PI{
-    width:"100";
-    height:"99";
+    width: "100";
+    height: "99";
 }
 #Imagen2PI{
-    width:"100";
-    height:"99";
+    width: "100";
+    height: "99";
 }
 #Txt2PI{
     width: 95%;   
     background-color: rgba(146, 144, 144, 0.5);
     font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 5px 5px;
-    text-align:left;
+    text-align: left;
     margin-top: 0.01%;
     border-radius: 0%;
     border-collapse: collapse;
@@ -374,7 +382,7 @@ body{
 }
 #Tabla2PI{
     font-size: 40px;
-    text-align:left;
+    text-align: left;
     margin-left: 65%;
 }
 #Tabla3PI{
