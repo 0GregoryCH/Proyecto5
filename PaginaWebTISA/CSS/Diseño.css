@@ -452,9 +452,20 @@ body{
     width: 35%;
     border-radius: 10px;
 }
+#Seccion4E{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
 #Seccion4E img{
-    width: 100%;
+    display: flex;
+    width: 40%;
+    height: 40%;
     border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 @media (max-width: 768px) {
     #Seccion1E {
