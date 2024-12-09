@@ -73,10 +73,19 @@ body{
     position: absolute;
     border: none;
 }
-#DivFooter{
-    margin-top: 20%;
-    margin-left: 5%;
-    text-align: left;
+@media (min-width: 550px){
+    #DivFooter{
+        margin-top: 30%;
+        margin-left: 5%;
+        text-align: left;
+    }
+}
+@media (max-width: 550px){
+    #DivFooter{
+        margin-top: 50%;
+        margin-left: 5%;
+        text-align: left;
+    }
 }
 /*Fin*/
 
@@ -269,8 +278,6 @@ body{
     margin-left: 5%;
     text-align: left;
 }
-
-
 /*Fin*/
 
 /*Pagina 4 Contactos*/
@@ -329,8 +336,40 @@ body{
     width: "320";
     height: "100";
 }
-#Tabla2C{
-    font-size: 50px;
+@media (min-width: 900px){
+    #Tabla2C{
+        font-size: 30px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 900px){
+    #Tabla2C{
+        font-size: 30px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 720px){
+    #Tabla2C{
+        font-size: 30px;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 550px){
+    #Tabla2C{
+        font-size: 50px;
+        margin-top: 40%;
+        margin-left: 5%;
+    }
+}
+@media (max-width: 300px){
+    #Tabla2C{
+        font-size: 50px;
+        margin-top: 50%;
+        margin-left: 5%;
+    }
 }
 /*Fin*/
 
