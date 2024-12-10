@@ -7,6 +7,10 @@ a{
     color: white;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
+h1{
+    color: white;
+    font-size: 0.2rem !important;
+}
 a:hover{
     background-color: #11be28;
     box-shadow: 0 0px 7px rgb(209, 252, 160);
@@ -24,9 +28,6 @@ td{
 head{
     background-color: rgb(53, 52, 52);
     display: flex;
-}
-meta{
-    background-color: rgb(53, 52, 52);
 }
 body{
     background-color: rgb(53, 52, 52);
